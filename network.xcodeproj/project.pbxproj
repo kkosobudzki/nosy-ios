@@ -7,64 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B3C4AEB2A38C224008E1C2E /* network.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AEA2A38C224008E1C2E /* network.docc */; };
-		6B3C4AEC2A38C224008E1C2E /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3C4AE92A38C224008E1C2E /* network.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B3C4AF62A38D23C008E1C2E /* nosy.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AF22A38D23C008E1C2E /* nosy.grpc.swift */; };
-		6B3C4AF72A38D23C008E1C2E /* NosyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AF32A38D23C008E1C2E /* NosyClient.swift */; };
-		6B3C4AF82A38D23C008E1C2E /* URLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AF42A38D23C008E1C2E /* URLSessionConfiguration.swift */; };
-		6B3C4AF92A38D23C008E1C2E /* nosy.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AF52A38D23C008E1C2E /* nosy.pb.swift */; };
-		6B3C4B022A38D8C5008E1C2E /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 6B3C4B012A38D8C5008E1C2E /* SwiftProtobuf */; };
-		6B3C4B082A38DCE6008E1C2E /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 6B3C4B072A38DCE6008E1C2E /* GRPC */; };
+		6B54095D2A38E2ED00547045 /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B54095C2A38E2ED00547045 /* network.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B5409672A38E30400547045 /* nosy.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409632A38E30400547045 /* nosy.pb.swift */; };
+		6B5409682A38E30400547045 /* NosyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409642A38E30400547045 /* NosyClient.swift */; };
+		6B5409692A38E30400547045 /* nosy.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409652A38E30400547045 /* nosy.grpc.swift */; };
+		6B54096A2A38E30400547045 /* URLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409662A38E30400547045 /* URLSessionConfiguration.swift */; };
+		6B54096D2A38E33400547045 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 6B54096C2A38E33400547045 /* GRPC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B3C4AE62A38C224008E1C2E /* network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B3C4AE92A38C224008E1C2E /* network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
-		6B3C4AEA2A38C224008E1C2E /* network.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = network.docc; sourceTree = "<group>"; };
-		6B3C4AF22A38D23C008E1C2E /* nosy.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.grpc.swift; sourceTree = "<group>"; };
-		6B3C4AF32A38D23C008E1C2E /* NosyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NosyClient.swift; sourceTree = "<group>"; };
-		6B3C4AF42A38D23C008E1C2E /* URLSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionConfiguration.swift; sourceTree = "<group>"; };
-		6B3C4AF52A38D23C008E1C2E /* nosy.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.pb.swift; sourceTree = "<group>"; };
+		6B5409592A38E2ED00547045 /* network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B54095C2A38E2ED00547045 /* network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		6B5409632A38E30400547045 /* nosy.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.pb.swift; sourceTree = "<group>"; };
+		6B5409642A38E30400547045 /* NosyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NosyClient.swift; sourceTree = "<group>"; };
+		6B5409652A38E30400547045 /* nosy.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.grpc.swift; sourceTree = "<group>"; };
+		6B5409662A38E30400547045 /* URLSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B3C4AE32A38C224008E1C2E /* Frameworks */ = {
+		6B5409562A38E2ED00547045 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3C4B082A38DCE6008E1C2E /* GRPC in Frameworks */,
-				6B3C4B022A38D8C5008E1C2E /* SwiftProtobuf in Frameworks */,
+				6B54096D2A38E33400547045 /* GRPC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B3C4ADC2A38C223008E1C2E = {
+		6B54094F2A38E2ED00547045 = {
 			isa = PBXGroup;
 			children = (
-				6B3C4AE82A38C224008E1C2E /* network */,
-				6B3C4AE72A38C224008E1C2E /* Products */,
+				6B54095B2A38E2ED00547045 /* network */,
+				6B54095A2A38E2ED00547045 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6B3C4AE72A38C224008E1C2E /* Products */ = {
+		6B54095A2A38E2ED00547045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B3C4AE62A38C224008E1C2E /* network.framework */,
+				6B5409592A38E2ED00547045 /* network.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B3C4AE82A38C224008E1C2E /* network */ = {
+		6B54095B2A38E2ED00547045 /* network */ = {
 			isa = PBXGroup;
 			children = (
-				6B3C4AF22A38D23C008E1C2E /* nosy.grpc.swift */,
-				6B3C4AF52A38D23C008E1C2E /* nosy.pb.swift */,
-				6B3C4AF32A38D23C008E1C2E /* NosyClient.swift */,
-				6B3C4AF42A38D23C008E1C2E /* URLSessionConfiguration.swift */,
-				6B3C4AE92A38C224008E1C2E /* network.h */,
-				6B3C4AEA2A38C224008E1C2E /* network.docc */,
+				6B5409652A38E30400547045 /* nosy.grpc.swift */,
+				6B5409632A38E30400547045 /* nosy.pb.swift */,
+				6B5409642A38E30400547045 /* NosyClient.swift */,
+				6B5409662A38E30400547045 /* URLSessionConfiguration.swift */,
+				6B54095C2A38E2ED00547045 /* network.h */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -72,26 +67,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6B3C4AE12A38C224008E1C2E /* Headers */ = {
+		6B5409542A38E2ED00547045 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3C4AEC2A38C224008E1C2E /* network.h in Headers */,
+				6B54095D2A38E2ED00547045 /* network.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B3C4AE52A38C224008E1C2E /* network */ = {
+		6B5409582A38E2ED00547045 /* network */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B3C4AEF2A38C224008E1C2E /* Build configuration list for PBXNativeTarget "network" */;
+			buildConfigurationList = 6B5409602A38E2ED00547045 /* Build configuration list for PBXNativeTarget "network" */;
 			buildPhases = (
-				2345353495040C2FD19294C9 /* [CP] Check Pods Manifest.lock */,
-				6B3C4AE12A38C224008E1C2E /* Headers */,
-				6B3C4AE22A38C224008E1C2E /* Sources */,
-				6B3C4AE32A38C224008E1C2E /* Frameworks */,
-				6B3C4AE42A38C224008E1C2E /* Resources */,
+				6B5409542A38E2ED00547045 /* Headers */,
+				6B5409552A38E2ED00547045 /* Sources */,
+				6B5409562A38E2ED00547045 /* Frameworks */,
+				6B5409572A38E2ED00547045 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -99,28 +93,28 @@
 			);
 			name = network;
 			packageProductDependencies = (
-				6B3C4B012A38D8C5008E1C2E /* SwiftProtobuf */,
-				6B3C4B072A38DCE6008E1C2E /* GRPC */,
+				6B54096C2A38E33400547045 /* GRPC */,
 			);
-			productName = network;
-			productReference = 6B3C4AE62A38C224008E1C2E /* network.framework */;
+			productName = dupa;
+			productReference = 6B5409592A38E2ED00547045 /* network.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B3C4ADD2A38C224008E1C2E /* Project object */ = {
+		6B5409502A38E2ED00547045 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					6B3C4AE52A38C224008E1C2E = {
+					6B5409582A38E2ED00547045 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
-			buildConfigurationList = 6B3C4AE02A38C224008E1C2E /* Build configuration list for PBXProject "network" */;
+			buildConfigurationList = 6B5409532A38E2ED00547045 /* Build configuration list for PBXProject "network" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,22 +122,21 @@
 				en,
 				Base,
 			);
-			mainGroup = 6B3C4ADC2A38C223008E1C2E;
+			mainGroup = 6B54094F2A38E2ED00547045;
 			packageReferences = (
-				6B3C4B002A38D8C5008E1C2E /* XCRemoteSwiftPackageReference "swift-protobuf" */,
-				6B3C4B062A38DCE6008E1C2E /* XCRemoteSwiftPackageReference "grpc-swift" */,
+				6B54096B2A38E33400547045 /* XCRemoteSwiftPackageReference "grpc-swift" */,
 			);
-			productRefGroup = 6B3C4AE72A38C224008E1C2E /* Products */;
+			productRefGroup = 6B54095A2A38E2ED00547045 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B3C4AE52A38C224008E1C2E /* network */,
+				6B5409582A38E2ED00547045 /* network */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6B3C4AE42A38C224008E1C2E /* Resources */ = {
+		6B5409572A38E2ED00547045 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -152,48 +145,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2345353495040C2FD19294C9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-network-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		6B3C4AE22A38C224008E1C2E /* Sources */ = {
+		6B5409552A38E2ED00547045 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3C4AEB2A38C224008E1C2E /* network.docc in Sources */,
-				6B3C4AF72A38D23C008E1C2E /* NosyClient.swift in Sources */,
-				6B3C4AF62A38D23C008E1C2E /* nosy.grpc.swift in Sources */,
-				6B3C4AF92A38D23C008E1C2E /* nosy.pb.swift in Sources */,
-				6B3C4AF82A38D23C008E1C2E /* URLSessionConfiguration.swift in Sources */,
+				6B5409672A38E30400547045 /* nosy.pb.swift in Sources */,
+				6B5409682A38E30400547045 /* NosyClient.swift in Sources */,
+				6B5409692A38E30400547045 /* nosy.grpc.swift in Sources */,
+				6B54096A2A38E30400547045 /* URLSessionConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6B3C4AED2A38C224008E1C2E /* Debug */ = {
+		6B54095E2A38E2ED00547045 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		6B3C4AEE2A38C224008E1C2E /* Release */ = {
+		6B54095F2A38E2ED00547045 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,10 +280,11 @@
 			};
 			name = Release;
 		};
-		6B3C4AF02A38C224008E1C2E /* Debug */ = {
+		6B5409612A38E2ED00547045 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -328,7 +296,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,22 +304,24 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nosy.network;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nosy.dupa;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6B3C4AF12A38C224008E1C2E /* Release */ = {
+		6B5409622A38E2ED00547045 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -364,7 +333,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,7 +341,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nosy.network;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nosy.dupa;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -388,20 +356,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B3C4AE02A38C224008E1C2E /* Build configuration list for PBXProject "network" */ = {
+		6B5409532A38E2ED00547045 /* Build configuration list for PBXProject "network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3C4AED2A38C224008E1C2E /* Debug */,
-				6B3C4AEE2A38C224008E1C2E /* Release */,
+				6B54095E2A38E2ED00547045 /* Debug */,
+				6B54095F2A38E2ED00547045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B3C4AEF2A38C224008E1C2E /* Build configuration list for PBXNativeTarget "network" */ = {
+		6B5409602A38E2ED00547045 /* Build configuration list for PBXNativeTarget "network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3C4AF02A38C224008E1C2E /* Debug */,
-				6B3C4AF12A38C224008E1C2E /* Release */,
+				6B5409612A38E2ED00547045 /* Debug */,
+				6B5409622A38E2ED00547045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -409,36 +377,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6B3C4B002A38D8C5008E1C2E /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-protobuf.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.6.0;
-			};
-		};
-		6B3C4B062A38DCE6008E1C2E /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
+		6B54096B2A38E33400547045 /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/grpc/grpc-swift.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.8.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6B3C4B012A38D8C5008E1C2E /* SwiftProtobuf */ = {
+		6B54096C2A38E33400547045 /* GRPC */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6B3C4B002A38D8C5008E1C2E /* XCRemoteSwiftPackageReference "swift-protobuf" */;
-			productName = SwiftProtobuf;
-		};
-		6B3C4B072A38DCE6008E1C2E /* GRPC */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6B3C4B062A38DCE6008E1C2E /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			package = 6B54096B2A38E33400547045 /* XCRemoteSwiftPackageReference "grpc-swift" */;
 			productName = GRPC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 6B3C4ADD2A38C224008E1C2E /* Project object */;
+	rootObject = 6B5409502A38E2ED00547045 /* Project object */;
 }
