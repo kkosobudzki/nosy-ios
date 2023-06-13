@@ -13,11 +13,11 @@
 		6B3C4AF72A38D23C008E1C2E /* NosyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AF32A38D23C008E1C2E /* NosyClient.swift */; };
 		6B3C4AF82A38D23C008E1C2E /* URLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AF42A38D23C008E1C2E /* URLSessionConfiguration.swift */; };
 		6B3C4AF92A38D23C008E1C2E /* nosy.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C4AF52A38D23C008E1C2E /* nosy.pb.swift */; };
-		F8D4DD0C6D0E3AE934CF9037 /* Pods_network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A3D6E7B816663CF1665C73 /* Pods_network.framework */; };
+		6B3C4B022A38D8C5008E1C2E /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 6B3C4B012A38D8C5008E1C2E /* SwiftProtobuf */; };
+		6B3C4B082A38DCE6008E1C2E /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 6B3C4B072A38DCE6008E1C2E /* GRPC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1FC16D497605B467D8224E34 /* Pods-network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network.debug.xcconfig"; path = "Target Support Files/Pods-network/Pods-network.debug.xcconfig"; sourceTree = "<group>"; };
 		6B3C4AE62A38C224008E1C2E /* network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3C4AE92A38C224008E1C2E /* network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
 		6B3C4AEA2A38C224008E1C2E /* network.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = network.docc; sourceTree = "<group>"; };
@@ -25,8 +25,6 @@
 		6B3C4AF32A38D23C008E1C2E /* NosyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NosyClient.swift; sourceTree = "<group>"; };
 		6B3C4AF42A38D23C008E1C2E /* URLSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionConfiguration.swift; sourceTree = "<group>"; };
 		6B3C4AF52A38D23C008E1C2E /* nosy.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.pb.swift; sourceTree = "<group>"; };
-		72CE5DAF36CD60E1DB984DEE /* Pods-network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network.release.xcconfig"; path = "Target Support Files/Pods-network/Pods-network.release.xcconfig"; sourceTree = "<group>"; };
-		F8A3D6E7B816663CF1665C73 /* Pods_network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D4DD0C6D0E3AE934CF9037 /* Pods_network.framework in Frameworks */,
+				6B3C4B082A38DCE6008E1C2E /* GRPC in Frameworks */,
+				6B3C4B022A38D8C5008E1C2E /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +45,6 @@
 			children = (
 				6B3C4AE82A38C224008E1C2E /* network */,
 				6B3C4AE72A38C224008E1C2E /* Products */,
-				CDE7B0EF67F602CCB85579B0 /* Pods */,
-				77130C42968C91D78D8CB9DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,24 +67,6 @@
 				6B3C4AEA2A38C224008E1C2E /* network.docc */,
 			);
 			path = network;
-			sourceTree = "<group>";
-		};
-		77130C42968C91D78D8CB9DF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F8A3D6E7B816663CF1665C73 /* Pods_network.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CDE7B0EF67F602CCB85579B0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1FC16D497605B467D8224E34 /* Pods-network.debug.xcconfig */,
-				72CE5DAF36CD60E1DB984DEE /* Pods-network.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +98,10 @@
 			dependencies = (
 			);
 			name = network;
+			packageProductDependencies = (
+				6B3C4B012A38D8C5008E1C2E /* SwiftProtobuf */,
+				6B3C4B072A38DCE6008E1C2E /* GRPC */,
+			);
 			productName = network;
 			productReference = 6B3C4AE62A38C224008E1C2E /* network.framework */;
 			productType = "com.apple.product-type.framework";
@@ -146,6 +129,10 @@
 				Base,
 			);
 			mainGroup = 6B3C4ADC2A38C223008E1C2E;
+			packageReferences = (
+				6B3C4B002A38D8C5008E1C2E /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				6B3C4B062A38DCE6008E1C2E /* XCRemoteSwiftPackageReference "grpc-swift" */,
+			);
 			productRefGroup = 6B3C4AE72A38C224008E1C2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -328,8 +315,8 @@
 		};
 		6B3C4AF02A38C224008E1C2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FC16D497605B467D8224E34 /* Pods-network.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -341,6 +328,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,8 +351,8 @@
 		};
 		6B3C4AF12A38C224008E1C2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72CE5DAF36CD60E1DB984DEE /* Pods-network.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -376,6 +364,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,6 +407,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B3C4B002A38D8C5008E1C2E /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+		6B3C4B062A38DCE6008E1C2E /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grpc/grpc-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B3C4B012A38D8C5008E1C2E /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B3C4B002A38D8C5008E1C2E /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		6B3C4B072A38DCE6008E1C2E /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B3C4B062A38DCE6008E1C2E /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B3C4ADD2A38C224008E1C2E /* Project object */;
 }
