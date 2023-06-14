@@ -57,9 +57,7 @@ class LoggingInterceptor : URLProtocol {
 extension URLSessionConfiguration {
 
   @objc
-  static func setUpSwizzledSessionConfiguration() {
-    print("URLSessionConfiguration swizzling") // TODO remove it
-    
+  static func inspect() {
     let originalSelector = #selector(getter: URLSessionConfiguration.default)
     let swizzledSelector = #selector(getter: URLSessionConfiguration.swizzled_default)
 
@@ -73,8 +71,6 @@ extension URLSessionConfiguration {
   @objc
   class var swizzled_default: URLSessionConfiguration {
     let configuration = swizzled_default
-
-    print("URLSessionConfiguration adding interceptor") // TODO remove it
 
     configuration.protocolClasses?.insert(LoggingInterceptor.self, at: 0)
 
