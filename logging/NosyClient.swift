@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import GRPC
-import NIO
+@_implementationOnly import GRPC
+@_implementationOnly import NIO
 
 class NosyClient {
   var service: Nosy_LoggerAsyncClient?

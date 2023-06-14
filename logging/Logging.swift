@@ -8,10 +8,10 @@
 import Foundation
 
 @objc
-class Logging : NSObject {
+public class Logging : NSObject {
     
     @objc
-    static func inspect() {
+    public static func inspect() {
       let originalSelector = #selector(getter: URLSessionConfiguration.default)
       let swizzledSelector = #selector(getter: URLSessionConfiguration.swizzled_default)
 

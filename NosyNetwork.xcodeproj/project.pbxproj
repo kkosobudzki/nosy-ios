@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B54095D2A38E2ED00547045 /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B54095C2A38E2ED00547045 /* network.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B54095D2A38E2ED00547045 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B54095C2A38E2ED00547045 /* logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B5409672A38E30400547045 /* nosy.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409632A38E30400547045 /* nosy.pb.swift */; };
 		6B5409682A38E30400547045 /* NosyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409642A38E30400547045 /* NosyClient.swift */; };
 		6B5409692A38E30400547045 /* nosy.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409652A38E30400547045 /* nosy.grpc.swift */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		6B5409592A38E2ED00547045 /* NosyNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NosyNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B54095C2A38E2ED00547045 /* network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		6B54095C2A38E2ED00547045 /* logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
 		6B5409632A38E30400547045 /* nosy.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.pb.swift; sourceTree = "<group>"; };
 		6B5409642A38E30400547045 /* NosyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NosyClient.swift; sourceTree = "<group>"; };
 		6B5409652A38E30400547045 /* nosy.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.grpc.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 				6B5409632A38E30400547045 /* nosy.pb.swift */,
 				6B5409642A38E30400547045 /* NosyClient.swift */,
 				6B5409662A38E30400547045 /* URLSessionConfiguration.swift */,
-				6B54095C2A38E2ED00547045 /* network.h */,
+				6B54095C2A38E2ED00547045 /* logging.h */,
 				6B7872EB2A39BEDE007E8BA5 /* LoggingInterceptor.swift */,
 				6B7872ED2A39BF05007E8BA5 /* Logging.swift */,
 			);
@@ -77,7 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B54095D2A38E2ED00547045 /* network.h in Headers */,
+				6B54095D2A38E2ED00547045 /* logging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,10 +21,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-import GRPC
-import NIO
-import NIOConcurrencyHelpers
-import SwiftProtobuf
+@_implementationOnly import GRPC
+@_implementationOnly import NIO
+@_implementationOnly import NIOConcurrencyHelpers
+@_implementationOnly import SwiftProtobuf
 
 
 /// Usage: instantiate `Nosy_LoggerClient`, then call methods of this protocol to make API calls.
