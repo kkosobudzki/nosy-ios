@@ -13,6 +13,8 @@
 		6B5409692A38E30400547045 /* nosy.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409652A38E30400547045 /* nosy.grpc.swift */; };
 		6B54096A2A38E30400547045 /* URLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5409662A38E30400547045 /* URLSessionConfiguration.swift */; };
 		6B54096D2A38E33400547045 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 6B54096C2A38E33400547045 /* GRPC */; };
+		6B7872EC2A39BEDE007E8BA5 /* LoggingInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7872EB2A39BEDE007E8BA5 /* LoggingInterceptor.swift */; };
+		6B7872EE2A39BF05007E8BA5 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7872ED2A39BF05007E8BA5 /* Logging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6B5409642A38E30400547045 /* NosyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NosyClient.swift; sourceTree = "<group>"; };
 		6B5409652A38E30400547045 /* nosy.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.grpc.swift; sourceTree = "<group>"; };
 		6B5409662A38E30400547045 /* URLSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionConfiguration.swift; sourceTree = "<group>"; };
+		6B7872EB2A39BEDE007E8BA5 /* LoggingInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingInterceptor.swift; sourceTree = "<group>"; };
+		6B7872ED2A39BF05007E8BA5 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6B5409642A38E30400547045 /* NosyClient.swift */,
 				6B5409662A38E30400547045 /* URLSessionConfiguration.swift */,
 				6B54095C2A38E2ED00547045 /* network.h */,
+				6B7872EB2A39BEDE007E8BA5 /* LoggingInterceptor.swift */,
+				6B7872ED2A39BF05007E8BA5 /* Logging.swift */,
 			);
 			path = logging;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5409672A38E30400547045 /* nosy.pb.swift in Sources */,
+				6B7872EE2A39BF05007E8BA5 /* Logging.swift in Sources */,
+				6B7872EC2A39BEDE007E8BA5 /* LoggingInterceptor.swift in Sources */,
 				6B5409682A38E30400547045 /* NosyClient.swift in Sources */,
 				6B5409692A38E30400547045 /* nosy.grpc.swift in Sources */,
 				6B54096A2A38E30400547045 /* URLSessionConfiguration.swift in Sources */,
