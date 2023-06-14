@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B5409592A38E2ED00547045 /* network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5409592A38E2ED00547045 /* nosy_network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nosy_network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B54095C2A38E2ED00547045 /* network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
 		6B5409632A38E30400547045 /* nosy.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nosy.pb.swift; sourceTree = "<group>"; };
 		6B5409642A38E30400547045 /* NosyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NosyClient.swift; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		6B54094F2A38E2ED00547045 = {
 			isa = PBXGroup;
 			children = (
-				6B54095B2A38E2ED00547045 /* network */,
+				6B54095B2A38E2ED00547045 /* nosy-network */,
 				6B54095A2A38E2ED00547045 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,12 +47,12 @@
 		6B54095A2A38E2ED00547045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B5409592A38E2ED00547045 /* network.framework */,
+				6B5409592A38E2ED00547045 /* nosy_network.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B54095B2A38E2ED00547045 /* network */ = {
+		6B54095B2A38E2ED00547045 /* nosy-network */ = {
 			isa = PBXGroup;
 			children = (
 				6B5409652A38E30400547045 /* nosy.grpc.swift */,
@@ -61,7 +61,7 @@
 				6B5409662A38E30400547045 /* URLSessionConfiguration.swift */,
 				6B54095C2A38E2ED00547045 /* network.h */,
 			);
-			path = network;
+			path = "nosy-network";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +78,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B5409582A38E2ED00547045 /* network */ = {
+		6B5409582A38E2ED00547045 /* nosy-network */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B5409602A38E2ED00547045 /* Build configuration list for PBXNativeTarget "network" */;
+			buildConfigurationList = 6B5409602A38E2ED00547045 /* Build configuration list for PBXNativeTarget "nosy-network" */;
 			buildPhases = (
 				6B5409542A38E2ED00547045 /* Headers */,
 				6B5409552A38E2ED00547045 /* Sources */,
@@ -91,12 +91,12 @@
 			);
 			dependencies = (
 			);
-			name = network;
+			name = "nosy-network";
 			packageProductDependencies = (
 				6B54096C2A38E33400547045 /* GRPC */,
 			);
 			productName = dupa;
-			productReference = 6B5409592A38E2ED00547045 /* network.framework */;
+			productReference = 6B5409592A38E2ED00547045 /* nosy_network.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6B5409532A38E2ED00547045 /* Build configuration list for PBXProject "network" */;
+			buildConfigurationList = 6B5409532A38E2ED00547045 /* Build configuration list for PBXProject "nosy-network" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B5409582A38E2ED00547045 /* network */,
+				6B5409582A38E2ED00547045 /* nosy-network */,
 			);
 		};
 /* End PBXProject section */
@@ -358,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B5409532A38E2ED00547045 /* Build configuration list for PBXProject "network" */ = {
+		6B5409532A38E2ED00547045 /* Build configuration list for PBXProject "nosy-network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B54095E2A38E2ED00547045 /* Debug */,
@@ -367,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B5409602A38E2ED00547045 /* Build configuration list for PBXNativeTarget "network" */ = {
+		6B5409602A38E2ED00547045 /* Build configuration list for PBXNativeTarget "nosy-network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B5409612A38E2ED00547045 /* Debug */,
