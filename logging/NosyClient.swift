@@ -46,7 +46,7 @@ class NosyClient {
       
       return registerdRequest?.id
     } catch {
-      print("Failed to log request to Nosy. Got error: \(error)")
+        print("Failed to log request to Nosy. Got error: \(error.localizedDescription)")
     }
     
     return nil
@@ -65,7 +65,7 @@ class NosyClient {
     do {
       try await service?.logResponse(networkResponse)
     } catch {
-      print("Failed to log response to Nosy. Got error: \(error)")
+        print("Failed to log response to Nosy. Got error: \(error.localizedDescription)")
     }
   }
 }
