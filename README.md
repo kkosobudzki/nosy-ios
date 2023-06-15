@@ -2,7 +2,7 @@
 
 ## Building
 
-To build an `NosyNetwork.xcframework` run following commands (can be in parallel) on main project directory:
+To build an `NosyNetwork.xcframework` run following commands on main project directory:
 
 ```
 xcodebuild archive \
@@ -20,7 +20,7 @@ xcodebuild archive \
 SKIP_INSTALL=NO
 ```
 
-and finally merge them into `xcframework`:
+and finally merge them into `xcframework` (make sure to remove results of previous xcframework build):
 
 ```
 xcodebuild -create-xcframework \
