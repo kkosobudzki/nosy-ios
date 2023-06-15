@@ -34,17 +34,16 @@ class LoggingInterceptor : URLProtocol {
     LoggingInterceptor.setProperty(true, forKey: LoggingInterceptor.FlagKey, in: mutableRequest)
     
     Task.init {
-      let requestId = await self.nosy.logRequest(request)
+        async let requestId = self.nosy.logRequest(request)
+        async let (data, response) = try! URLSession.shared.data(for: request)
+      
+        client.urlProtocol(self, didReceive: await response, cacheStoragePolicy: URLCache.StoragePolicy.allowed)
+        client.urlProtocol(self, didLoad: await data)
+        client.urlProtocolDidFinishLoading(self)
         
-      let (data, response) = try await URLSession.shared.data(for: request)
-      
-      if let id = requestId {
-        await self.nosy.logResponse(id, response, data)
-      }
-      
-      client.urlProtocol(self, didReceive: response, cacheStoragePolicy: URLCache.StoragePolicy.allowed)
-      client.urlProtocol(self, didLoad: data)
-      client.urlProtocolDidFinishLoading(self)
+        if let id = await requestId {
+            await self.nosy.logResponse(id, response, data)
+        }
     }
   }
   

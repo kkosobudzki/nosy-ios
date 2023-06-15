@@ -15,7 +15,7 @@ class NosyClient {
   let port: Int = 6969
   
   init() {
-    let eventLoopGroup = MultiThreadedEventLoopGroup(numberOfThreads: 1)
+    let eventLoopGroup = MultiThreadedEventLoopGroup(numberOfThreads: 4)
     
     do {
       let channel = try GRPCChannelPool.with(
@@ -24,9 +24,10 @@ class NosyClient {
         eventLoopGroup: eventLoopGroup
       )
       
-      self.service = Nosy_LoggerAsyncClient(channel: channel)
-      
-      print("Nosy connection initialized")
+      self.service = Nosy_LoggerAsyncClient(
+        channel: channel,
+        defaultCallOptions: CallOptions(timeLimit: .timeout(.seconds(2)))
+      )
     } catch {
       print("Could not connect to Nosy")
     }
