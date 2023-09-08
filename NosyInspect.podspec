@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source		= { :git => "https://github.com/kkosobudzki/nosy-ios.git", :tag => "v1.0.0", :flatten => true }
+  spec.source		= { :git => "https://github.com/kkosobudzki/nosy-ios.git", :tag => "v1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = "Sources/NosyInspect/**/*.{h,m,swift}"
+  spec.source_files = "nosy-ios-1.0.0/Sources/NosyInspect/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
