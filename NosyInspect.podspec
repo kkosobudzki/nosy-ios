@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-  spec.license      = "GNU, Version 3.0"
+  spec.license      = { :type => 'GNU GPLv3' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -67,8 +67,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source		= { :path => '.' }
-  spec.source		= { :git => "https://github.com/kkosobudzki/nosy-ios.git", :tag => "v1.0.0" }
+  spec.source		= { :git => 'https://github.com/kkosobudzki/nosy-ios.git', :tag => 'v1.0.0' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = "NosyInspect"
+  spec.source_files = "inspect/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
