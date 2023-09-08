@@ -43,7 +43,7 @@
 		6B54094F2A38E2ED00547045 = {
 			isa = PBXGroup;
 			children = (
-				6B54095B2A38E2ED00547045 /* logging */,
+				6B54095B2A38E2ED00547045 /* inspect */,
 				6B54095A2A38E2ED00547045 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B54095B2A38E2ED00547045 /* logging */ = {
+		6B54095B2A38E2ED00547045 /* inspect */ = {
 			isa = PBXGroup;
 			children = (
 				6B5409652A38E30400547045 /* nosy.grpc.swift */,
@@ -67,7 +67,7 @@
 				6B7872EB2A39BEDE007E8BA5 /* LoggingInterceptor.swift */,
 				6B7872ED2A39BF05007E8BA5 /* Logging.swift */,
 			);
-			path = logging;
+			path = inspect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
