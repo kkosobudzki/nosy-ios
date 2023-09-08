@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-  spec.license      = { :type => 'GNU GPLv3', :file => 'LICENSE' }
+  spec.license      = { :type => "GNU GPLv3", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -60,6 +60,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
+  spec.swift_version = "4.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -67,7 +68,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source		= { :git => 'https://github.com/kkosobudzki/nosy-ios.git', :tag => 'v1.0.0' }
+  spec.source		= { :git => "https://github.com/kkosobudzki/nosy-ios.git", :tag => "v1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -117,5 +118,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  
+  spec.ios.deployment_target	= "11.0"
 
 end
