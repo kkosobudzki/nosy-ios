@@ -60,7 +60,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
-  spec.swift_version = "4.0"
+  spec.swift_version = "5.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,8 +78,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = "inspect/*.{h,m,swift}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files = "Sources/NosyInspect/*.{h,m,swift}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -119,6 +119,6 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   
-  spec.ios.deployment_target	= "11.0"
+  spec.ios.deployment_target	= "13.0"
 
 end
