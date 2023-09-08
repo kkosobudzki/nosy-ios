@@ -68,6 +68,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source		= { :path => '.' }
+  spec.source		= { :git => "https://github.com/kkosobudzki/nosy-ios.git", :tag => "1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
