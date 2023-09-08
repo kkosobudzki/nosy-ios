@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NosyInspect"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Inspect network requests and responses"
 
   # This description is used to generate tags and improve search results.
@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source		= { :git => "https://github.com/kkosobudzki/nosy-ios.git", :tag => "v1.0.0" }
+  spec.source		= { :git => "https://github.com/kkosobudzki/nosy-ios.git", :tag => "v1.0.1" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = "nosy-ios-1.0.0/Sources/NosyInspect/**/*.{h,m,swift}"
+  spec.source_files = "Sources/NosyInspect/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
