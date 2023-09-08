@@ -78,8 +78,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = "Sources/NosyInspect/*.{h,m,swift}"
-  #spec.exclude_files = "Classes/Exclude"
+  spec.source_files = "Sources/**/*"
+  spec.exclude_files = "Classes/Exclude"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
