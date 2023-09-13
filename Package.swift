@@ -25,10 +25,9 @@ let package = Package(
                 .product(name: "GRPC", package: "grpc-swift")
             ]
         ),
-         .testTarget(
+        .testTarget(
             name: "NosyInspectTests",
             dependencies: ["NosyInspect"]
-         ),
-    ],
-    swiftLanguageVersions: [.v5]
+        ),
+    ]
 )
