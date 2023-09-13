@@ -1,6 +1,6 @@
 //
 //  ConfigureLogger.swift
-//  WongaPay
+//  NosyInspect
 //
 //  Created by Krzysztof Kosobudzki on 29/05/2023.
 //
