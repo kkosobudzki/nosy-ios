@@ -1,6 +1,6 @@
 //
 //  LoggingInterceptor.swift
-//  NosyNetwork
+//  NosyInspect
 //
 //  Created by Krzysztof Kosobudzki on 14/06/2023.
 //

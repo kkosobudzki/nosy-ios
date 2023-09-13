@@ -1,6 +1,6 @@
 //
 //  NosyClient.swift
-//  WongaPay
+//  NosyInspect
 //
 //  Created by Krzysztof Kosobudzki on 12/06/2023.
 //
