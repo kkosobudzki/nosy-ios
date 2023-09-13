@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package nosy;
 
-option java_package = "com.nosy.network";
+option java_package = "dev.nosytools.inspect";
 
 message NetworkRequest {
   string method = 1;
