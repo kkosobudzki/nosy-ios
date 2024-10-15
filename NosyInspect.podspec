@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NosyInspect'
-  s.version          = '1.2.0'
+  s.version          = '1.0.3'
   s.summary          = 'Nosy Inspect'
   s.homepage         = 'https://github.com/kkosobudzki/nosy-ios'
   s.license          = { :type => 'GNUv3', :file => 'LICENSE.md' }
